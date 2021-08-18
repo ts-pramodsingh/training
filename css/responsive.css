@@ -1,0 +1,1132 @@
+@media (min-width: 768px) {
+	.container
+	{
+		width:750px;
+		display:block;
+		margin-left:auto;
+		margin-right:auto
+	}
+}
+
+@media (max-width: 991px) {
+	.unversity-wrap
+	{
+		margin-bottom:16px
+	}
+	
+	.only-clm-5 .unversity-wrap
+	{
+		margin-bottom:0
+	}
+	
+	.safari.body-fixed-menu
+	{
+		height:100%;
+		width:100%;
+		position:fixed;
+		overflow:hidden
+	}
+	
+	.hidden-sm
+	{
+		display:none
+	}
+	
+	.visible-sm
+	{
+		display:inline-block
+	}
+	
+	.menu-container
+	{
+		width:100%;
+		height:100%;
+		overflow-y:auto;
+		top:0;
+		position:fixed;
+		z-index:99999999
+	}
+	
+	.menu
+	{
+		width:100%;
+		background:#fff
+	}
+	
+	.menu h4
+	{
+		width:100%
+	}
+	
+	.menu li.pull-left,.menu li.pull-right
+	{
+		width:100%;
+		float:none
+	}
+	
+	.menu li.pull-left
+	{
+		display:table-footer-group;
+		padding:0
+	}
+	
+	.menu li.pull-left ul
+	{
+		display:inline-block;
+		padding:0 5px
+	}
+	
+	.menu li.pull-left ul li a
+	{
+		position:relative;
+		margin:0;
+		font-size:14px;
+		display:block;
+		padding:10px 0;
+		color:#51565e;
+		line-height:1.67
+	}
+	
+	.menu li.pull-right
+	{
+		display:table-header-group
+	}
+	
+	.menu li.col-md-6.pull-left
+	{
+		display:block
+	}
+	
+	.menu li.col-md-6+li.col-md-6
+	{
+		position:relative;
+		top:-10px
+	}
+	
+	.menu li.col-md-6+li.col-md-6 h4
+	{
+		display:none
+	}
+	
+	.menu li.menu-item
+	{
+		position:relative;
+		margin:0;
+		display:block;
+		padding-right:15px;
+		padding-left:15px;
+		clear:both;
+		line-height:normal
+	}
+	
+	.menu li.menu-item .menu-cat
+	{
+		font-size:14px;
+		line-height:normal;
+		color:#51565e;
+		padding:13px 0;
+		display:inline-block;
+		width:100%
+	}
+	
+	.menu li.menu-item::after
+	{
+		content:"";
+		display:inline-block;
+		width:20px;
+		height:20px;
+		background:url(https://www.simplilearn.com/ice9/assets/megamenu_1.svgz) no-repeat;
+		background-position:-128px -18px;
+		position:absolute;
+		right:20px;
+		transition:all .2s ease;
+		top:11px
+	}
+	
+	.menu li.menu-item:last-child
+	{
+		padding-bottom:64px
+	}
+	
+	.menu li.menu-item.active
+	{
+		padding-bottom:0;
+		position:fixed;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		overflow-y:auto;
+		z-index:1;
+		padding-top:50px;
+		background:#f3f6f8
+	}
+	
+	.menu li.menu-item.active .menu-cat
+	{
+		margin:0;
+		line-height:48px;
+		font-size:14px;
+		font-weight:500;
+		position:fixed;
+		top:0;
+		left:0;
+		right:0;
+		z-index:2;
+		background:#fff;
+		color:#272c37;
+		padding:0;
+		padding-left:50px;
+		box-shadow:0 2px 2px 0 rgba(0,0,0,0.2)
+	}
+	
+	.menu li.menu-item.active .menu-cat::before
+	{
+		content:"";
+		width:20px;
+		height:24px;
+		display:inline-block;
+		background:url(https://www.simplilearn.com/ice9/assets/megamenu_1.svgz) no-repeat;
+		background-position:-14px -11px;
+		position:absolute;
+		left:15px;
+		top:8px
+	}
+	
+	li.active
+	{
+		font-weight:400
+	}
+	
+	li.active .sub-menu
+	{
+		width:100%;
+		left:0;
+		position:relative;
+		display:inline-block;
+		background:#f3f6f8;
+		margin-top:0;
+		float:left
+	}
+	
+	.menu-master-prg a span
+	{
+		font-size:14px;
+		font-weight:400
+	}
+	
+	.menu-master-prg ul li
+	{
+		line-height:28px;
+		display:inline-block;
+		font-weight:400;
+		padding-right:15px
+	}
+	
+	.menu-head
+	{
+		text-align:center;
+		font-size:14px!important;
+		font-weight:500;
+		margin:0 0 20px;
+		position:relative;
+		width:100%
+	}
+	
+	.menu-head span
+	{
+		display:inline-block;
+		width:40px;
+		height:40px;
+		background:url(https://www.simplilearn.com/ice9/assets/megamenu_1.svgz) no-repeat;
+		background-position:-14px -11px;
+		position:absolute;
+		left:15px;
+		top:8px
+	}
+	
+	.menu-head span.menu-close-btn
+	{
+		right:15px;
+		left:inherit;
+		background-position:-93px -11px;
+		width:20px
+	}
+	
+	.first-menu ul li.menu-head,.menu li.menu-head
+	{
+		padding-top:0;
+		padding-bottom:0;
+		color:#272c37;
+		background:#ebf1f8;
+		border:1px solid #dde6ed;
+		line-height:46px
+	}
+	
+	.menu-overlay
+	{
+		background:rgba(0,0,0,0.6);
+		display:inline-block;
+		position:fixed;
+		left:0;
+		top:0;
+		height:100%;
+		z-index:99999999;
+		width:100%;
+		bottom:0
+	}
+	
+	.first-menu
+	{
+		overflow-y:auto;
+		background:#fff;
+		padding:0;
+		margin-bottom:0;
+		width:calc(100% - 50px);
+		display:inline-block;
+		height:100%
+	}
+	
+	.first-menu ul li
+	{
+		padding:0;
+		padding-right:20px
+	}
+	
+	.first-menu ul li a,.first-menu ul li span.mobile-all-courses
+	{
+		padding:10px 20px;
+		color:#272c37;
+		font-size:14px;
+		font-weight:600;
+		display:inline-block;
+		width:100%
+	}
+	
+	.first-menu ul li span.mobile-all-courses
+	{
+		line-height:normal;
+		position:relative
+	}
+	
+	.first-menu ul li span.mobile-all-courses::after
+	{
+		content:"";
+		display:inline-block;
+		width:20px;
+		height:20px;
+		background:url(https://www.simplilearn.com/ice9/assets/megamenu_1.svgz) no-repeat;
+		background-position:-129px -15px;
+		position:absolute;
+		right:0;
+		top:6px;
+		transition:all .2s ease
+	}
+	
+	.menu li.category-btn
+	{
+		padding-top:32px
+	}
+	
+	.menu .col-md-5.pull-left h4
+	{
+		margin-top:48px
+	}
+	
+	.menu-master-prg ul::before
+	{
+		bottom:4px
+	}
+	
+	.menu li.active .menu-master-prg
+	{
+		width:100%;
+		max-width:425px;
+		float:left;
+		margin-top:5px
+	}
+	
+	.menu li.active .menu-master-prg a
+	{
+		display:block;
+		margin:0
+	}
+	
+	.menu li.active .menu-master-prg a span
+	{
+		color:#51565e
+	}
+	
+	.menu li.active .menu-master-prg a.master-link
+	{
+		background:#fff;
+		padding:14px 16px;
+		border-radius:4px;
+		box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+		margin-bottom:5px
+	}
+	
+	.menu li.active .menu-master-prg ul
+	{
+		display:none
+	}
+	
+	.menu li.active .menu-master-prg:first-of-type
+	{
+		margin-top:8px
+	}
+	
+	.menu-container
+	{
+		border-radius:0
+	}
+	
+	.menu .univ-list .univ-info span
+	{
+		font-size:12px
+	}
+	
+	.menu .univ-list .univ-info h5
+	{
+		font-size:14px
+	}
+	
+	.menu h4.no-popular
+	{
+		display:none
+	}
+}
+
+@media (min-width: 992px) {
+	ul.menu li.category-btn
+	{
+		width:auto;
+		position:absolute;
+		bottom:0;
+		right:0
+	}
+	
+	.menu-container
+	{
+		margin-top:63px
+	}
+	
+	#menu-button
+	{
+		float:left;
+		margin-top:12px
+	}
+	
+	header #menu-button span.courses-menu
+	{
+		margin-top:0
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.menu-head span
+	{
+		left:30px
+	}
+	
+	.first-menu ul li
+	{
+		padding-right:30px
+	}
+	
+	.first-menu ul li a,.menu li.menu-item
+	{
+		padding-left:35px;
+		padding-right:35px
+	}
+	
+	.menu-head span.menu-close-btn
+	{
+		right:30px
+	}
+	
+	.menu li.menu-item::after
+	{
+		right:35px
+	}
+	
+	.menu li.menu-item.active .menu-cat
+	{
+		padding-left:66px
+	}
+	
+	.menu li.menu-item.active .menu-cat::before
+	{
+		left:30px
+	}
+	
+	.menu li.menu-item.active
+	{
+		padding-left:30px;
+		padding-right:30px
+	}
+}
+
+@media (min-width: 992px) {
+	.menu h4
+	{
+		font-size:12px
+	}
+	
+	.menu h4::after
+	{
+		display:none
+	}
+	
+	.menu a.menu-cat
+	{
+		line-height:36px
+	}
+	
+	.menu li.active a.menu-cat
+	{
+		line-height:36px;
+		margin-bottom:0;
+		font-weight:500;
+		color:#1179ef;
+		position:relative
+	}
+	
+	.menu li.active a.menu-cat::after
+	{
+		content:"";
+		display:inline-block;
+		width:20px;
+		height:20px;
+		background:url(https://www.simplilearn.com/ice9/assets/megamenu_1.svgz) no-repeat;
+		background-position:-129px -15px;
+		position:absolute;
+		right:-14px;
+		top:6px
+	}
+	
+	.menu li.active .sub-menu-item a
+	{
+		padding:8px 0;
+		margin-bottom:0
+	}
+	
+	.menu li.active .menu-master-prg
+	{
+		padding-left:0;
+		padding-right:21px;
+		margin-top:24px
+	}
+	
+	.menu li.pull-left
+	{
+		width:225px
+	}
+	
+	.menu li.pull-right
+	{
+		width:calc(100% - 225px);
+		padding-right:15px
+	}
+	
+	.menu li.pull-right.only-clm-5
+	{
+		width:274px;
+		float:right
+	}
+	
+	.menu .unversity-wrap
+	{
+		width:242px;
+		float:right;
+		padding-left:4px
+	}
+	
+	.menu .master-wrap
+	{
+		width:242px;
+		float:left
+	}
+	
+	.menu .master-wrap.only-master
+	{
+		width:100%;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:left
+	}
+	
+	.menu .master-wrap.only-master h4
+	{
+		width:100%
+	}
+	
+	.menu .master-wrap.only-master .menu-master-prg
+	{
+		display:inline-block;
+		width:242px;
+		clear:none;
+		margin-top:24px
+	}
+	
+	.menu .master-wrap.only-master .menu-master-prg:first-of-type,.menu .master-wrap.only-master .menu-master-prg:nth-of-type(2)
+	{
+		margin-top:8px
+	}
+	
+	.menu .master-wrap.only-master .menu-master-prg:nth-of-type(2),.menu .master-wrap.only-master .menu-master-prg:nth-of-type(4)
+	{
+		padding-right:0;
+		padding-left:21px
+	}
+	
+	.menu .univ-list
+	{
+		padding-right:0;
+		padding-left:0
+	}
+	
+	.menu .univ-list a
+	{
+		background:#ebf1f8;
+		border-radius:4px;
+		box-shadow:none
+	}
+	
+	.menu .univ-list .uni-logo
+	{
+		background:#fff;
+		border:0
+	}
+	
+	.menu .univ-list .univ-info
+	{
+		padding-left:10px
+	}
+	
+	.menu-master-prg a span
+	{
+		font-size:12px;
+		font-weight:500;
+		color:#51565e;
+		line-height:1.5
+	}
+	
+	.menu li.category-btn
+	{
+		margin-bottom:20px;
+		margin-right:20px;
+		padding:0
+	}
+	
+	.menu li.category-btn a
+	{
+		margin-bottom:0
+	}
+	
+	.menu li.pull-left+li.pull-left
+	{
+		padding-left:10px
+	}
+	
+	.menu li.menu-item .menu-cat
+	{
+		color:#51565e
+	}
+	
+	.menu li.menu-item.active .menu-cat
+	{
+		color:#1179ef
+	}
+}
+
+@media (min-width: 1200px) {
+	.menu-container
+	{
+		width:1050px;
+		box-shadow:0 2px 10px 0 rgba(0,0,0,0.25);
+		height:546px
+	}
+	
+	.menu
+	{
+		width:255px
+	}
+	
+	.sub-menu
+	{
+		left:255px
+	}
+	
+	li.active .sub-menu
+	{
+		width:795px
+	}
+	
+	.menu li.pull-left
+	{
+		width:267px;
+		padding-right:35px
+	}
+	
+	.menu li.pull-right
+	{
+		width:calc(100% - 267px);
+		padding-right:15px
+	}
+	
+	.menu li.pull-right.only-clm-5
+	{
+		width:260px
+	}
+	
+	.menu .unversity-wrap,.menu .master-wrap
+	{
+		width:255px
+	}
+	
+	.menu .master-wrap.only-master .menu-master-prg
+	{
+		width:255px
+	}
+	
+	.menu-container
+	{
+		left:80px!important
+	}
+}
+
+
+
+@media (min-width: 1200px) {
+	.home-page .ul-iners ul li
+	{
+		width:389px
+	}
+	
+	#HeaderMenu
+	{
+		display:inline-block;
+		min-height:62px;
+		width:100%;
+		float:left
+	}
+	
+	#HeaderMenu header.sticky-top
+	{
+		position:fixed;
+		top:0;
+		animation:smoothScroll .3s forwards;
+		-webkit-animation:smoothScroll .3s forwards;
+		z-index:99
+	}
+	
+	#HeaderMenu header.sticky-top .search_topbar input[type=search]
+	{
+		font-size:14px;
+		color:#118aef;
+		font-weight:400
+	}
+	
+	#HeaderMenu header.sticky-top .search_topbar::placeholder
+	{
+		font-size:14px;
+		color:#118aef;
+		font-weight:400
+	}
+	
+	#HeaderMenu header.sticky-top .search_topbar:focus::placeholder
+	{
+		color:transparent
+	}
+	
+	#HeaderMenu.sticky-minimize+#MegaMenu #megamenu-box
+	{
+		position:fixed;
+		margin-top:0;
+		top:63px
+	}
+}
+
+@keyframes smoothScroll {
+	0%
+	{
+		top:-100px
+	}
+	
+	100%
+	{
+		top:0
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.home-page .ul-iners ul li
+	{
+		width:316px;
+		padding-right:15px
+	}
+}
+
+@media (min-width: 768px) {
+	.home-page h2
+	{
+		max-width:100%;
+		font-size:28px
+	}
+	
+	.home-page .subtext
+	{
+		margin-top:16px
+	}
+	
+	.home-page .ul-iners ul li
+	{
+		width:340px;
+		padding-right:30px
+	}
+	
+	.no-slider-tab .view-more-btn-fixed
+	{
+		display:none
+	}
+}
+
+@media (min-width: 992px) {
+	.no-slider-desk .view-more-btn-fixed
+	{
+		display:none
+	}
+	
+	.home-page h2
+	{
+		font-size:32px;
+		line-height:normal
+	}
+	
+	.home-page .subtext
+	{
+		font-size:16px
+	}
+	
+	.c_arrow
+	{
+		display:block
+	}
+	
+	.view-more-btn-fixed
+	{
+		position:relative;
+		overflow:visible;
+		margin-top:24px
+	}
+	
+	.view-more-btn-fixed span.c_arrow
+	{
+		position:absolute;
+		width:38px;
+		height:38px;
+		display:inline-block;
+		border-radius:50%;
+		cursor:pointer;
+		color:transparent;
+		font-size:0;
+		top:0;
+		bottom:0;
+		margin:auto;
+		background:url(https://www.simplilearn.com/ice9/assets/home/sprite_v2.svgz) no-repeat
+	}
+	
+	.view-more-btn-fixed span.c_prev
+	{
+		background-position:-109px -231px;
+		left:-58px
+	}
+	
+	.view-more-btn-fixed span.c_prev:hover
+	{
+		background-position:-197px -164px;
+		-ms-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		transform:rotate(180deg)
+	}
+	
+	.view-more-btn-fixed span.c_prev.hide-btn
+	{
+		background-position:-209px -232px;
+		pointer-events:none;
+		cursor:default;
+		-ms-transform:rotate(180deg);
+		-webkit-transform:rotate(180deg);
+		transform:rotate(180deg)
+	}
+	
+	.view-more-btn-fixed span.c_next
+	{
+		right:-58px;
+		background-position:-168px -232px
+	}
+	
+	.view-more-btn-fixed span.c_next:hover
+	{
+		background-position:-199px -164px
+	}
+	
+	.view-more-btn-fixed span.c_next.hide-btn
+	{
+		background-position:-211px -232px;
+		pointer-events:none;
+		cursor:default
+	}
+}
+
+@media (max-width: 991px) {
+	.hide-sm
+	{
+		display:none
+		}
+	
+	header .logo
+	{
+		height:24px;
+		position:absolute;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		width:100px;
+		margin:auto
+	}
+	
+	header span.courses-menu
+	{
+		text-indent:-9999px;
+		width:25px;
+		height:23px;
+		display:inline-block;
+		background:url(https://www.simplilearn.com/ice9/assets/header-new.svgz) no-repeat;
+		background-position:-22px -20px;
+		margin:16px 0;
+		padding:0 5px 0 0
+	}
+	
+	header span.courses-menu::before
+	{
+		display:none
+	}
+	
+	header .container
+	{
+		position:initial
+	}
+	
+	header .container::after
+	{
+		content:" ";
+		display:block;
+		clear:both
+	}
+	
+	header .links-right
+	{
+		display:none
+	}
+	
+	header .search_topbar
+	{
+		float:right;
+		width:auto;
+		position:inherit
+	}
+	
+	header .search_topbar form
+	{
+		box-shadow:#ccc 0 0 15px;
+		margin-top:0
+	}
+	
+	header .search_topbar form input
+	{
+		color:#000;
+		height:55px;
+		float:left;
+		width:calc(100% - 52px);
+		background-color:#fff;
+		border-radius:2px 0 0 2px;
+		border:1px solid #d8d8d8;
+		padding:6px 12px;
+		font-weight:300;
+		margin:0
+	}
+	
+	header .search_topbar form input::placeholder
+	{
+		color:#999;
+		font-weight:300
+	}
+	
+	header .search_topbar form button
+	{
+		height:55px;
+		float:left;
+		width:52px;
+		box-shadow:none;
+		background:#118aef;
+		border-color:#118aef;
+		position:inherit;
+		border-radius:0;
+		top:0;
+		margin:0
+	}
+	
+	header .search_topbar form button span
+	{
+		height:22px;
+		width:22px;
+		display:inline-block;
+		vertical-align:middle;
+		background:url(https://www.simplilearn.com/ice9/assets/header-new.svgz) no-repeat;
+		margin-left:5px;
+		filter:brightness(0) invert(1);
+		-webkit-filter:brightness(0) invert(1);
+		position:relative;
+		top:-2px
+	}
+	
+	header .s_icon
+	{
+		text-indent:-9999px;
+		width:25px;
+		height:23px;
+		display:inline-block;
+		background:url(https://www.simplilearn.com/ice9/assets/header-new.svgz) no-repeat;
+		background-position:-66px -20px;
+		margin:16px 0 0
+	}
+	
+	header .search
+	{
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		width:100%;
+		z-index:22
+	}
+	
+	header .search form
+	{
+		display:none
+	}
+	
+	header .s_icon+.search-enabled form
+	{
+		display:inline-block;
+		box-shadow:#ccc 0 0 15px;
+		background-clip:padding-box;
+		width:100%
+	}
+}
+
+
+
+
+@media (max-width: 767px) {
+	header
+	{
+		display:block;
+		float:none;
+		height:55px
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	header .search_topbar
+	{
+		width:324px
+	}
+}
+
+@media (min-width: 992px) {
+	.container
+	{
+		width:970px
+	}
+}
+
+@media (min-width: 1200px) {
+	.container
+	{
+		width:1170px
+	}
+}
+
+@media (min-width: 992px) {
+	.top-sub-menu
+	{
+		display:inline-block;
+		width:100%;
+		text-align:right;
+		background:#e6ecef;
+		min-height:38px
+	}
+	
+	.top-sub-menu a
+	{
+		margin-left:44px;
+		font-size:14px;
+		font-weight:400;
+		display:inline-block;
+		line-height:36px;
+		color:#293031
+	}
+	
+	.top-sub-menu a:hover
+	{
+		color:#118aef
+	}
+	
+	header .search_topbar input
+	{
+		margin-bottom:0
+	}
+	
+	header .logo img
+	{
+		width:auto;
+		height:auto
+	}
+}
+
+
+
+@media (max-width: 767px) {
+	.hidden-mobile
+	{
+		display:none
+	}
+}
+
+@media (min-width: 768px) {
+	.p-t-b-80
+	{
+		padding-top:88px;
+		padding-bottom:88px
+	}
+	
+	h2
+	{
+		font-size:24px;
+		line-height:34px
+	}
+	
+	.query_success p::before
+	{
+		width:71px;
+		height:73px;
+		background-position:-145px -120px
+	}
+}
+
+
+
